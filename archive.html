@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        header button{
+            margin-top: 10px;
+            background: linear-gradient(45deg, #7e037e, #f4e9e1);
+            border-color:#ff7e5f;
+            padding: 0.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            margin:10px;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <h1>Duo Chronicle</h1>
+            <div style="margin-left: auto;">
+            <nav>
+                <a href="index.html" class="button">Home</a>
+                <a href="post.html" class="button">Post</a>
+                <a href="archive.html" class="button">Archive</a>
+                <a href="contact.html" class="button">Contact</a>
+                <button id="theme-toggle" class="button">Toggle Light Mode</button>
+            </nav>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <section style="text-align: center" id="archive" class="archive fade-in">
+            <h2>Archive</h2><br>
+            <p>THE POST YOU HAVE ARCHIVED WILL APPEAR HERE....</p>
+        </section>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <p>&copy; 2024 My Vibrant Blog. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script>
+    <script src="scroll.js" defer></script>
+    <script src="animation.js" defer></script>
+</body>
+</html>
